@@ -1,0 +1,39 @@
+{% extends 'layouts/base.html'%}
+{% load static %}
+
+{% block content%}
+<!-- about section start -->
+    <section class="about">
+        <h1 class="heading">about <span>me</span></h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="{% static 'img/photo_2022.jpg' %}" alt="my photo">
+            </div>
+
+            <div class="content">
+                <h3>my name is <span>Nasirov Kamoliddin</span></h3>
+                <p class="info">sep.2016 - June 2019 Chirchik Technical Vocational college</p>
+                <p class="info2">sep.2021 - sep 2022 B.Akilkhanov tech academy graduate</p>
+                <div class="box-container">
+                    <div class="box">
+                        <p><span>age:</span>22</p>
+                        <p><span>gender:</span>male</p>
+                        <p><span>experience:</span>none</p>
+                        <p><span>freelance:</span>available</p>
+                    </div>
+
+                    <div class="box">
+                        <p><span>language:</span>uzbek/russian</p>
+                        <p><span>phone:</span>+998(90)1355455</p>
+                        <p><span>email:</span>kripton.017@mail.ru</p>
+                        <p><span>address:</span>Tashkent, Chirchik, Shakirov-33</p>   
+                    </div>
+                </div>
+                <a href="#" class="btn">download CV</a>
+            </div>
+        </div>
+
+    </section>
+<!-- about section end -->
+{% endblock%}

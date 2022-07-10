@@ -9,7 +9,8 @@ urlpatterns = [
     path('blog/', include('blog.urls')),
     path('contact/', include('contact.urls')),
     path('portfolio/', include('portfolio.urls')),
-    path('about/', include('about.urls'))
+    path('about/', include('about.urls')),
+    path('services/', include('services.urls'))
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

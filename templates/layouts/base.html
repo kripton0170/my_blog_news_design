@@ -1,34 +1,28 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- custom css file link-->
-    <link rel="stylesheet" href="{% static 'about/about.css'%}">
-    <link rel="stylesheet" href="{% static 'blog/blog.css'%}">
-    <link rel="stylesheet" href="{% static 'contact/contact.css'%}">
-    <link rel="stylesheet" href="{% static 'main/base.css'%}">
-    <link rel="stylesheet" href="{% static 'main/main.css'%}">
-    <link rel="stylesheet" href="{% static 'portfolio/portfolio.css'%}">
-    <link rel="stylesheet" href="{% static 'services/services.css' %}">
+    <link rel="stylesheet" href="{% static 'styles/style.css' %}">
     <!-- font-awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- icons-web site  -->
-    <link rel="icons" href="{% static 'img/nks.jpg' %}">
+    <link rel="icon" href="{% static 'img/logo2.jpg' %}" type="logo2/jpg" sizes="16x16">
     <title>my_blog_news_design</title>
 </head>
+
 <body>
-    
     <!-- header stars -->
-
     <header>
-
+        <!-- <div id="menu-bars" class="fas fa-bars"></div> -->
         <nav class="navbar">
-            <a href="#">home</a>
-            <a href="#">about</a>
-            <a href="#">services</a>
+            <a href="{% url 'main'%}">home</a>
+            <a href="{% url 'about'%}">about</a>
+            <a href="{% url 'services'%}">services</a>
             <a href="#">portfolio</a>
             <a href="#">blogs</a>
             <a href="#">contact</a>
@@ -37,7 +31,19 @@
 
 
     <!-- header end -->
+
+    
     {% block content%}
     {% endblock%}
+
+
+
+
+    
+    <!-- particles.js links  -->
+    <script src="{% static 'node_modules/particles.js/particles.js' %}"></script>
+    <script src="{% static 'node_modules/particles.js/demo/js/app.js'%}"></script>
+
 </body>
+
 </html>

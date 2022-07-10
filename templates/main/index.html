@@ -1,4 +1,16 @@
 {% extends 'layouts/base.html'%}
+{% load static %}
 
 {% block content%}
+<!-- home start  -->
+<section class="home">
+    <div id="particles-js"></div>
+    <div class="content">
+        <img src="{% static 'img/photo_2022.jpg' %}" alt="my photo">
+        <h3>Nasirov <span>Kamoliddin</span></h3>
+        <p>I'm a <span class="typing-text">full stack junior developer</span></p>
+        <a href="{% url 'about'%}" class="btn">about me</a>
+    </div>
+</section>
+<!-- home end  -->
 {% endblock%}
