@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- custom css file link-->
+    <link rel="stylesheet" href="{% static 'about/about.css'%}">
+    <link rel="stylesheet" href="{% static 'blog/blog.css'%}">
+    <link rel="stylesheet" href="{% static 'contact/contact.css'%}">
+    <link rel="stylesheet" href="{% static 'main/base.css'%}">
+    <link rel="stylesheet" href="{% static 'main/main.css'%}">
+    <link rel="stylesheet" href="{% static 'portfolio/portfolio.css'%}">
+    <link rel="stylesheet" href="{% static 'services/services.css' %}">
+    <!-- font-awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- icons-web site  -->
+    <link rel="icons" href="{% static 'img/nks.jpg' %}">
+    <title>my_blog_news_design</title>
+</head>
+<body>
+    
+    <!-- header stars -->
+
+    <header>
+
+        <nav class="navbar">
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">services</a>
+            <a href="#">portfolio</a>
+            <a href="#">blogs</a>
+            <a href="#">contact</a>
+        </nav>
+    </header>
+
+
+    <!-- header end -->
+    {% block content%}
+    {% endblock%}
+</body>
+</html>
