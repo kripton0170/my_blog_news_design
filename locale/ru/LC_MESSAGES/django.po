@@ -24,9 +24,9 @@ msgstr ""
 msgid "about"
 msgstr "о себе"
 
-#: templates/about/about.html:7
-msgid "me"
-msgstr "о себе"
+#  #: templates/about/about.html:7
+#  msgid "me"
+#  msgstr "о себе"
 
 #: templates/about/about.html:15
 msgid "my name is"

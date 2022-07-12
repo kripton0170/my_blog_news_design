@@ -23,18 +23,18 @@ html{
 }
 
 
-html::-webkit-scrollbar{
+/* html::-webkit-scrollbar{
     width: .7rem;
 }
 
 html::-webkit-scrollbar-track{
     background: #fff;
     /* background: black; */
-}
+/* } */
 
-html::-webkit-scrollbar-thumb{
+/* html::-webkit-scrollbar-thumb{
     background: var(--green);
-}
+} */ */
 
 body{
     background: #eee;
@@ -56,12 +56,16 @@ header{
 header .navbar{
     writing-mode: vertical-lr;
     padding: 1.5rem;
+    /* display: flex;
+    flex-wrap: nowrap;
+     */
 }
 
 header .navbar a{
     padding: 1.5rem;
     font-size: 2rem;
     color: #222;
+  
 }
 
 header .navbar a:hover{
@@ -178,7 +182,7 @@ header .navbar a:hover{
 .about .row{
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    /* gap: 1.5rem; */
     align-items: center;
 }
 
@@ -252,8 +256,8 @@ header .navbar a:hover{
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
 }
 
 .services .box-container .box{

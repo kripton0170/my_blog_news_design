@@ -20,9 +20,9 @@ msgstr ""
 
 #: templates/about/about.html:7 templates/layouts/base.html:24
 msgid "about"
-msgstr "haqimda"
+msgstr "Haqimda"
 
-#: templates/about/about.html:7
+#: templates/about/about.html:7 templates/layouts/base.html:24
 msgid "me"
 msgstr "men"
 
@@ -96,23 +96,23 @@ msgstr "CV yuklab olish"
 
 #: templates/layouts/base.html:23
 msgid "home"
-msgstr "bosh sahifa"
+msgstr "Bosh sahifa"
 
 #: templates/layouts/base.html:25 templates/services/services.html:8
 msgid "services"
-msgstr "xizmatlar"
+msgstr "Xizmatlar"
 
 #: templates/layouts/base.html:26 templates/portfolio/portfolio.html:7
 msgid "portfolio"
-msgstr "portfoliyam"
+msgstr "Portfoliyam"
 
 #: templates/layouts/base.html:27
 msgid "blogs"
-msgstr "bloglar"
+msgstr "Bloglar"
 
 #: templates/layouts/base.html:28
 msgid "contact"
-msgstr "aloqa"
+msgstr "Aloqa"
 
 #: templates/main/index.html:10
 msgid "Nasirov"
