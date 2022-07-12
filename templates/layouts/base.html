@@ -1,4 +1,4 @@
-{% load static %}
+{% load static i18n %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,12 +20,12 @@
     <header>
         <!-- <div id="menu-bars" class="fas fa-bars"></div> -->
         <nav class="navbar">
-            <a href="{% url 'main'%}">home</a>
-            <a href="{% url 'about'%}">about</a>
-            <a href="{% url 'services'%}">services</a>
-            <a href="#">portfolio</a>
-            <a href="#">blogs</a>
-            <a href="#">contact</a>
+            <a href="{% url 'main'%}">{% translate "home" %}</a>
+            <a href="{% url 'about'%}">{% translate "about" %}</a>
+            <a href="{% url 'services'%}">{% translate "services" %}</a>
+            <a href="{% url 'portfolio'%}">{% translate "portfolio" %}</a>
+            <a href="#">{% translate "blogs" %}</a>
+            <a href="#">{% translate "contact" %}</a>
         </nav>
     </header>
 

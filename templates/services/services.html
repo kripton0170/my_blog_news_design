@@ -1,46 +1,46 @@
 {% extends 'layouts/base.html'%}
-{% load static %}
+{% load static i18n %}
 
 {% block content %}
 <!-- services start  -->
 <section class="services">
 
-    <h1 class="heading"><span>my</span>services</h1>
+    <h1 class="heading"><span>{% translate "my" %}</span>{% translate "services" %}</h1>
 
     <div class="box-container">
         <div class="box">
             <i class="fas fa-code"></i>
-            <h3>web development</h3>
+            <h3>{% translate "web development" %}</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, ducimus!</p>
         </div>
 
         <div class="box">
             <i class="fas fa-paint-brush"></i>
-            <h3>graphic design</h3>
+            <h3>{% translate "graphic design" %}</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, ducimus!</p>
         </div>
 
         <div class="box">
             <i class="fas fa-bullhorn"></i>
-            <h3>seo marketing</h3>
+            <h3>{% translate "seo marketing" %}</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, ducimus!</p>
         </div>
 
         <div class="box">
             <i class="fas fa-envelope"></i>
-            <h3>email marketing</h3>
+            <h3>{% translate "email marketing" %}</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, ducimus!</p>
         </div>
 
         <div class="box">
             <i class="fas fa-mobile"></i>
-            <h3>responsive designs</h3>
+            <h3>{% translate "responsive designs" %}</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, ducimus!</p>
         </div>
 
         <div class="box">
             <i class="fab fa-wordpress"></i>
-            <h3>wordpress</h3>
+            <h3>{% translate "wordpress" %}</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, ducimus!</p>
         </div>
     </div>

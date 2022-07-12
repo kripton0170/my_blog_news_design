@@ -1,0 +1,37 @@
+{% extends 'layouts/base.html' %}
+{% load static i18n %}
+
+{% block content%}
+    <!-- portfolio start  -->
+    <section class="portfolio">
+        <h1 class="heading"><span>{% translate "my" %} </span>{% translate "portfolio" %}</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="{% static 'img/madina market.jpg'%}" alt="madina market">
+                <div class="content">
+                    <a href="#" class="btn">{% translate "learn more" %}</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="{% static 'img/uzaro.jpg'%}" alt="uzaro">
+                <div class="content">
+                    <a href="#" class="btn">{% translate "learn more" %}</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="{% static 'img/ideal.jpeg'%}" alt="ideal">
+                <div class="content">
+                    <a href="#" class="btn">{% translate "learn more" %}</a>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <!-- portfolio end   -->
+{% endblock %}

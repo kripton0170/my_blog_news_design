@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-12 19:51+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: templates/about/about.html:7 templates/layouts/base.html:24
+msgid "about"
+msgstr "haqimda"
+
+#: templates/about/about.html:7
+msgid "me"
+msgstr "men"
+
+#: templates/about/about.html:15
+msgid "my name is"
+msgstr "mening ismim"
+
+#: templates/about/about.html:15
+msgid "Nasirov Kamoliddin"
+msgstr "Nasirov Kamoliddin"
+
+#: templates/about/about.html:16
+msgid "sep.2016 - June 2019 Chirchik Technical Vocational college"
+msgstr "2016 yil sentyabr - 2019 yil iyun Chirchiq texnika kasb-hunar kolleji"
+
+#: templates/about/about.html:17
+msgid "sep.2021 - sep 2022 B.Akilkhanov tech academy graduate"
+msgstr "2021 yil sentyabr - 2022 yil sentyabr B.Akilhanov texnologiya akademiyasi bitiruvchisi"
+
+#: templates/about/about.html:20
+msgid "age:"
+msgstr "yosh:"
+
+#: templates/about/about.html:21
+msgid "gender:"
+msgstr "jins:"
+
+#: templates/about/about.html:21
+msgid "male"
+msgstr "erkak"
+
+#: templates/about/about.html:22
+msgid "experience:"
+msgstr "tajriba"
+
+#: templates/about/about.html:22
+msgid "month"
+msgstr "oy"
+
+#: templates/about/about.html:23
+msgid "freelance:"
+msgstr "freelance:"
+
+#: templates/about/about.html:27
+msgid "language:"
+msgstr "til:"
+
+#: templates/about/about.html:27
+msgid "uzbek/russian"
+msgstr "o'zbek/rus"
+
+#: templates/about/about.html:28
+msgid "phone:"
+msgstr "telefon raqam:"
+
+#: templates/about/about.html:29
+msgid "email:"
+msgstr "email:"
+
+#: templates/about/about.html:30
+msgid "address:"
+msgstr "manzil:"
+
+#: templates/about/about.html:30
+msgid "Tashkent, Chirchik, Shakirov-33"
+msgstr "Tashkent, Chirchiq, Shokirov-33"
+
+#: templates/about/about.html:33
+msgid "download CV"
+msgstr "CV yuklab olish"
+
+#: templates/layouts/base.html:23
+msgid "home"
+msgstr "bosh sahifa"
+
+#: templates/layouts/base.html:25 templates/services/services.html:8
+msgid "services"
+msgstr "xizmatlar"
+
+#: templates/layouts/base.html:26 templates/portfolio/portfolio.html:7
+msgid "portfolio"
+msgstr "portfoliyam"
+
+#: templates/layouts/base.html:27
+msgid "blogs"
+msgstr "bloglar"
+
+#: templates/layouts/base.html:28
+msgid "contact"
+msgstr "aloqa"
+
+#: templates/main/index.html:10
+msgid "Nasirov"
+msgstr "Nasirov"
+
+#: templates/main/index.html:10
+msgid "Kamoliddin"
+msgstr "Kamoliddin"
+
+#: templates/main/index.html:11
+msgid "I'm a"
+msgstr "men"
+
+#: templates/main/index.html:11
+msgid "full stack junior developer"
+msgstr "web-dasturchiman"
+
+#: templates/main/index.html:12
+msgid "about me"
+msgstr "men haqimda"
+
+#: templates/portfolio/portfolio.html:7 templates/services/services.html:8
+msgid "my"
+msgstr "mening"
+
+#: templates/portfolio/portfolio.html:14 templates/portfolio/portfolio.html:21
+#: templates/portfolio/portfolio.html:28
+msgid "learn more"
+msgstr "ko'proq ma'lumot olish"
+
+#: templates/services/services.html:13
+msgid "web development"
+msgstr "web-dasturchi"
+
+#: templates/services/services.html:25
+msgid "seo marketing"
+msgstr ""
+
+#: templates/services/services.html:31
+msgid "email marketing"
+msgstr ""
+
+#: templates/services/services.html:37
+msgid "responsive designs"
+msgstr ""
+
+#: templates/services/services.html:43
+msgid "wordpress"
+msgstr ""
