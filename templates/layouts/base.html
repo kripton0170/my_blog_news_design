@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- icons-web site  -->
     <link rel="icon" href="{% static 'img/logo2.jpg' %}" type="logo2/jpg" sizes="16x16">
+    
+    <link rel="stylesheet" href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}">
     <title>my_blog_news_design</title>
 </head>
 
@@ -21,11 +23,11 @@
         <!-- <div id="menu-bars" class="fas fa-bars"></div> -->
         <nav class="navbar">
             <a href="{% url 'main'%}">{% translate "home" %}</a>
-            <a href="{% url 'about'%}">{% translate "about" %}</a>
-            <a href="{% url 'services'%}">{% translate "services" %}</a>
-            <a href="{% url 'portfolio'%}">{% translate "portfolio" %}</a>
+            <a href="{% url 'about'%}">{% translate "about me" %}</a>
+            <a href="{% url 'services'%}">{% translate "my services" %}</a>
+            <a href="{% url 'portfolio'%}">{% translate "my portfolio" %}</a>
             <!-- <a href="#">{% translate "blogs" %}</a> -->
-            <a href="{% url 'contact'%}">{% translate "contact" %}</a>
+            <a href="{% url 'contact'%}">{% translate "my contact" %}</a>
         </nav>
     </header>
 

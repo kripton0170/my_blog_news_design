@@ -332,6 +332,86 @@ header .navbar a:hover{
 }
 /* portfolio end  */
 
+/* contact start  */
+
+.contact .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.contact .row .image{
+    flex: 1 1 40rem;
+}
+.contact .row .image img{
+    width: 100%;
+}
+
+.contact .row form{
+    flex: 1 1 40rem;
+    padding: 1rem 2rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    background: #fff;
+}
+
+.contact .row form .inputbox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact .row form .inputbox, input,
+.contact .row form .box,
+.contact .row form textarea{
+    width: 95%;
+    border-radius: .5rem;
+    font-size: 1.7rem;
+    color: #333;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    text-transform: none;
+}
+
+.contact .row form .inputbox, input:focus,
+.contact .row form .box:focus,
+.contact .row form textarea:focus{
+    border-color: var(--green);
+}
+
+.contact .row form .inputbox input{
+    width: 49%;
+}
+
+.contact .row form textarea{
+    height: 20rem;
+    resize: none;
+}
+
+.contact .row form .btn{
+    margin: .5rem 0;
+}
+
+/* footer  */
+.footer{
+    padding: 2rem;
+    font-size: 2rem;
+    color: #666;
+    background: #fff;
+    text-align: center;
+
+}
+
+.footer span {
+    color: var(--green);
+}
+
+.nav-item .dropdown{
+    color:#fff;
+}
+
+
 
 
 

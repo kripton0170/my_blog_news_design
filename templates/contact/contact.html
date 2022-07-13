@@ -2,6 +2,38 @@
 {% load static i18n%}
 
 {% block content %}
+ <!-- contact start  -->
+<section class="contact">
+
+    <h1 class="heading">{% translate "contact"%} <span>{% translate "me"%}</span></h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="{% static 'img/contactme.png'%}" alt="contactme">
+        </div>
+
+        <form action="">
+
+            <div class="inputbox">
+                <input type="text" placeholder="name">
+                <input type="email" name="" id="" placeholder="email">
+            </div>
+
+            <input type="text" placeholder="subject" class="box">
+
+            <textarea placeholder="messages" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+    </div>
+</section>
+
+
+ <!-- contact end  -->
+
+ <!-- footer start  -->
+<div class="footer">{% translate 'created by'%} <span>{% translate 'mr.Kamoliddin'%}</span> | {% translate 'all rights reserved!'%}</div>
+
 
 
 {% endblock %}

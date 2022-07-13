@@ -11,6 +11,15 @@
         <p>{% translate "I'm a" %} <span class="typing-text">{% translate "full stack junior developer" %}</span></p>
         <a href="{% url 'about'%}" class="btn">{% translate "about me" %}</a>
     </div>
+
+    <li class="nav-item dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{{LANGUAGE_CODE}}</a>
+        <ul class="dropdown-menu dropdown-menu-end">
+            {% for l in LANGUAGE%}
+            <li><a href="/{{l.0}}/" class="dropdown-item {% if l.0 == LANGUAGE_CODE %} active {% endif %}">{{l.1}}</a></li>
+            {% endfor%}
+        </ul>
+    </li>
 </section>
 <!-- home end  -->
 {% endblock%}
